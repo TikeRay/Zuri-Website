@@ -42,7 +42,7 @@ ul li a:hover {
 .btn {
     display: inline-block;
     text-decoration: none;
-    padding: 15px 50px;
+    padding: 12px 50px;
     font-weight: 400;
     color: #fff;
     background-color: #d80f0f;
@@ -52,7 +52,7 @@ ul li a:hover {
 .btn1 {
     display: inline-block;
     text-decoration: none;
-    padding: 15px 60px;
+    padding: 12px 50px;
     font-weight: 400;
     color: #fff;
     background-color: #d80f0f;
@@ -63,29 +63,29 @@ ul li a:hover {
 .btn2 {
     display: inline-block;
     text-decoration: none;
-    padding: 15px 59px;
+    padding: 12px 55px;
     font-weight: 500;
     color: #fff;
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(102, 102, 102);
     border-bottom: 3px;
     border-bottom-right-radius: 10px;
     justify-content: space-between;
 }
 
 .content {
-    margin-top: 300px;
+    margin-top: 250px;
     max-width: 600px;
     margin-left: 130px;
 }
 
 .content h1 {
-    font-size: 47px;
+    font-size: 42px;
     font-weight: bold;
     color: #000;
 }
 
 .content p {
-    font-size: 22px;
+    font-size: 20px;
     margin: 25px 0 30px;
     color: rgb(126, 124, 124);
 }
