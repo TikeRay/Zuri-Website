@@ -17,7 +17,7 @@ ul {
 
 ul li {
     display: inline-block;
-    font-size: 18px;
+    font-size: 14px;
     margin-right: 50px;
 }
 
@@ -42,20 +42,21 @@ ul li a:hover {
 .btn {
     display: inline-block;
     text-decoration: none;
-    padding: 12px 50px;
+    padding: 10px 40px;
     font-weight: 400;
     color: #fff;
-    background-color: #d80f0f;
+    background-color: rgb(231, 51, 43);
     border-bottom: 3px;
     border-bottom-right-radius: 10px;
 }
+
 .btn1 {
     display: inline-block;
     text-decoration: none;
-    padding: 12px 50px;
+    padding: 10px 40px;
     font-weight: 400;
     color: #fff;
-    background-color: #d80f0f;
+    background-color: rgb(231, 51, 43);
     border-bottom: 3px;
     border-bottom-right-radius: 10px;
 }
@@ -63,13 +64,13 @@ ul li a:hover {
 .btn2 {
     display: inline-block;
     text-decoration: none;
-    padding: 12px 55px;
+    padding: 10px 40px;
     font-weight: 500;
     color: #fff;
     background-color: rgb(102, 102, 102);
     border-bottom: 3px;
     border-bottom-right-radius: 10px;
-    justify-content: space-between;
+
 }
 
 .content {
@@ -79,29 +80,92 @@ ul li a:hover {
 }
 
 .content h1 {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: bold;
     color: #000;
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 18px;
     margin: 25px 0 30px;
     color: rgb(126, 124, 124);
 }
-.content a{
+
+.content a {
     margin: 5px;
+}
+
+.line-1 {
+    width: 80px;
+    margin-left: 390px;
+}
+
+.line1,
+.line-1 {
+    margin-top: -23px;
 }
 
 .btn3 {
     text-decoration: none;
-    color: red;
+    color: rgb(231, 51, 43);
     font-weight: bold;
 }
 
 .pic {
-    width: 450px;
+    width: 400px;
     position: absolute;
     bottom: 0;
     right: 150px;
+}
+
+.line-2 {
+    width: 300px;
+    position: absolute;
+    right: 3px;
+    bottom: 65px;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        padding-top: 130px;
+    }
+}
+main{
+  background-image: url(herobg.png);
+}
+.section2 {
+    margin-top: 100px;
+}
+
+#btn4 {
+    color: rgb(231, 51, 43);
+    text-decoration: none;
+}
+.subsection2{
+    padding-top: 50px;
+margin-left: 70px;
+}
+
+.one{
+    font-size: 20px;
+    font-weight: bold;
+}
+.two{
+    font-size: 16px;
+    font-weight: bold;
+}
+.three{
+    font-size: 16px;
+    font-weight: bold;
+}
+.sectionbox {
+    display: flex;
+    padding-top: 30px;
+}
+.section2-img{
+    width: 400px;
+    left: 450px;
+    margin-top: -200px;
+    position: relative;
+    bottom: 0;
 }
