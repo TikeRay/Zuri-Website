@@ -130,9 +130,11 @@ ul li a:hover {
         padding-top: 130px;
     }
 }
-main{
-  background-image: url(herobg.png);
+
+main {
+    background-image: url(herobg.png);
 }
+
 .section2 {
     margin-top: 100px;
 }
@@ -141,31 +143,37 @@ main{
     color: rgb(231, 51, 43);
     text-decoration: none;
 }
-.subsection2{
-    padding-top: 50px;
-margin-left: 70px;
+
+.subsection2 {
+    padding-top: 150px;
+    margin-left: 120px;
 }
 
-.one{
-    font-size: 20px;
-    font-weight: bold;
+.one {
+    font-size: 18px;
+    font-weight: 900;
 }
-.two{
+
+.two {
     font-size: 16px;
     font-weight: bold;
 }
-.three{
+
+.three {
     font-size: 16px;
     font-weight: bold;
 }
+
 .sectionbox {
     display: flex;
     padding-top: 30px;
+    padding-left: 130px;
 }
-.section2-img{
+
+.section2-img {
     width: 400px;
     left: 450px;
-    margin-top: -200px;
+    margin-top: -250px;
     position: relative;
     bottom: 0;
 }
